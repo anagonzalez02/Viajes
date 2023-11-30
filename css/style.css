@@ -1,0 +1,91 @@
+body {
+    background-image: url("../img/fondo.jpg");
+	margin-top: 100px;
+	margin-left: 200px;
+	padding: 5px;
+    max-width: 900px;
+    font-family: cursive;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(245, 169, 255);
+
+}
+
+h2{
+    color: rgb(255, 237, 177);
+    text-align: center;
+}
+h3{
+    text-align: left;
+    color: rgb(193, 226, 255);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    /*width: 500px;*/
+    text-align: justify;
+    line-height: 120%;
+   }
+   
+.contenedor{
+    max-width: 1000px;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 30px;
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.contenedor table td p{
+    max-width:400px;
+    padding: 50px;
+}
+
+
+
+.contenedor header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.contenedor header nav ul li{
+    margin: 0 30px;
+}
+.contenedor header nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 15px;
+    padding: 5px 3px;
+    border-radius: 2px;
+}
+
+footer p{
+    text-align: center;
+}
+
+.bio-img{
+    border-radius: 30%;
+}
+
+.contenedor .islas{
+    text-align: left;
+}
+.contenedor .tabla-viajes p{
+    text-align: center;
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.contenedor .tabla-viajes table{
+    text-align: center;
+    margin: auto;
+
+}
+
+.contenedor .tabla-viajes td{
+    border: 1px solid #dddddd; /* Borde de las celdas */
+    padding: 10px; /* Espaciado interno */
+}

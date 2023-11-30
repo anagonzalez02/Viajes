@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <section class = "contenedor">
+        <header>
+            <h1>LOS VIAJES DE ANA</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Mis viajes</a></li>
+                    <li><a href="recomiendame.html">Recomiendame</a></li>
+                    <li><a href="futuros.html">Futuros viajes</a></li>
+                    <li><a href="sobremi.html">Sobre mi</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h2>¡Recomiendame destinos!</h2>
+        <form>
+            <label for="destino">Nombre del destino</label>
+            <input type="text" name="destino" id="destino">
+            <br><br>
+            <label for="tipo">Tipo de viaje:*</label>
+            <select id="tipo" name="tipo" required>
+            <option value="">Selecciona</option>
+            <option value="tranquilo">tranquilo</option>
+            <option value="aventura">aventura</option>
+            <option value="cultural">cultural</option>
+            </select>
+            <br><br>
+            <label for="consejo">Consejos:*</label>
+            <input type="text" id="consejo" name="consejo" required>
+            <br><br>
+            <label for="calificacion">Puntua tu viaje</label>
+            <input type="range" id="calificacion" name="calificacion" min="1" max="10">
+            <br><br>
+            <label>Fecha de viaje:</label>
+            <input type="date" name="fecha_viaje">
+            <br><br>
+            <label for="terminos">Estoy de acuerdo con los <a href="https://policies.google.com/terms?hl=es">Terminos y condiciones</a></label>
+            <input type="checkbox" id="terminos" name="terminos">
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <footer>
+            <div class="redes">
+                <p>By Ana González</p>
+            </div>
+        </footer>
+    </section>     
+</body>
+</html>
